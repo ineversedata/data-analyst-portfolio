@@ -131,3 +131,34 @@ footer {
 .contact-list a:hover {
   text-decoration: underline;
 }
+/* ---------- Responsive Styling ---------- */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  section {
+    padding: 2rem 1rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .contact-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-list i {
+    margin-bottom: 5px;
+  }
+}
